@@ -12,8 +12,8 @@
       position: relative;
     }
   }
-  .
-  .li {
+  
+  li {
     list-style: none;
      display: flex;
       align-items: flex-end;
@@ -75,25 +75,25 @@
   
   #inicio
   {
-    color: green;
+    color: rgb(8, 2, 92);
     font-family: tangerine;
     font-size: 40px;
   }
-  #Sobre-Amarte_bydani
+  #Sobre_Amarte_bydani
   {
-    color: green;
+    color: rgb(8, 2, 92);
     font-family: tangerine;
     font-size: 40px;
   }
   #Contacto
   {
-    color: green;
+    color: rgb(8, 2, 92);
     font-family: tangerine;
     font-size: 40px;
   }
-  #Novias-felices
+  #Novias_felices
   {
-    color: green;
+    color: rgb(8, 2, 92);
     font-family: tangerine;
     font-size: 40px;
   }
