@@ -1,2 +1,2 @@
 # Amarte
-Web de Estética Amarte
+Landing page de Estética Amarte
