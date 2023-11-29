@@ -1,4 +1,11 @@
 
+*{
+  background: #ffbdf1!important; 
+}
+
+.main-container {
+  margin-top: 120px; 
+}
 
 .logo {
     width: 200px;
@@ -15,10 +22,15 @@
   
   li {
     list-style: none;
-     display: flex;
-      align-items: flex-end;
+     /* display: flex;
+      align-items: flex-end; */
     
   }
+  .navbar-nav {
+    width: 100%;
+    justify-content: space-around; /* o space-between */
+}
+
   h1
   {
     display: flex;
@@ -28,7 +40,7 @@
   body
   {
     background: #ff9eea;
-    font-family: Optima, sans-serif, monospace;
+    /* font-family: Optima, sans-serif, monospace; */
   }
   
   @media (max-width: 800px) {
@@ -44,66 +56,24 @@
   }
   
   @media (max-width: 650px) {
-    nav {
-    
-      margin-top: 10px;
-      width: 100%;
-      display: flex;
-    flex-direction: column;
-       align-items: center;
-      text-align: center;
-      padding: 0 50px;
-    }
-    nav li {
-      padding-bottom: 5px;
-    }
+
   }
   
-  nav > ul {
-    width: 35vw;
-    display: flex;
-    flex-direction: row;
-       justify-content: space-around;
-  }
+  
   
   @media (max-width: 650px) {
-    nav > ul {
-    
-      flex-direction: column;
-    }
+   
   }
   
-  #inicio
+  #inicio,  #Sobre_Amarte_bydani, #Contacto,  #Novias_felices
   {
     color: rgb(8, 2, 92);
-    font-family: tangerine;
-    font-size: 40px;
+      font-size: 40px;
   }
-  #Sobre_Amarte_bydani
-  {
-    color: rgb(8, 2, 92);
-    font-family: tangerine;
-    font-size: 40px;
-  }
-  #Contacto
-  {
-    color: rgb(8, 2, 92);
-    font-family: tangerine;
-    font-size: 40px;
-  }
-  #Novias_felices
-  {
-    color: rgb(8, 2, 92);
-    font-family: tangerine;
-    font-size: 40px;
-  }
+
   #page-wrapper
   {
   position: relative;
    
   }
   
-  header
-  {
-    position: fixed;
-  }
